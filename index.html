@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+    <title>R3C - Лідери за обсягами налитого трафіку</title>
+    <meta name="description" content="Невпинно задаємо тренди в affiliate-індустрії. Якісний трафік у шалених обсягах, професійна підтримка та індивідуальні умови співпраці.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <span class="logo">
+                    <img src="images/logo.png" alt="R3C Logo">
+                </span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">Про нас</a>
+                <a href="#partnership" class="nav-link">Партнерство</a>
+                <a href="#team" class="nav-link">Команда</a>
+                <a href="#careers" class="nav-link">Кар'єра</a>
+                <a href="#blog" class="nav-link">Блог</a>
+                <a href="#contact" class="nav-link">Контакти</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="animated-bg"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                ЛІДЕРИ ЗА ОБСЯГАМИ<br>
+                <span class="text-gradient">НАЛИТОГО ТРАФІКУ</span>
+            </h1>
+            <p class="hero-subtitle">
+                Невпинно задаємо тренди в affiliate-індустрії.<br>
+                Якісний трафік у шалених обсягах, професійна підтримка<br>
+                та індивідуальні умови співпраці.
+            </p>
+            <button class="cta-button">
+                <span>СТАТИ ПАРТНЕРОМ</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+            </button>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">5M+</div>
+                    <div class="stat-label">Щоденний трафік</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Активних партнерів</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Підтримка</div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="scroll-down" onclick="scrollToSection('about')">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6,9 12,15 18,9"></polyline>
+            </svg>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">ПРО R3C</h2>
+            
+            <div class="stats-section">
+                <div class="stat-item">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-value">50+</div>
+                    <div class="stat-desc">Співробітників</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-value">2</div>
+                    <div class="stat-desc">Років на ринку</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🏢</div>
+                    <div class="stat-value">1</div>
+                    <div class="stat-desc">Офісів по світу</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-value">25+</div>
+                    <div class="stat-desc">Нагород</div>
+                </div>
+            </div>
+            
+            <div class="offices-section">
+                <h3>Наші офіси</h3>
+                <div class="offices-grid">
+                    <div class="office-item">🇺🇦 Київ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="partnership" id="partnership">
+        <div class="container">
+            <h2 class="section-title">ПАРТНЕРСТВО З R3C — ЦЕ:</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-badge">01</div>
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Високоякісний трафік</h3>
+                    <p>Лише перевірені джерела та якісна аудиторія</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-badge">02</div>
+                    <div class="benefit-icon">🌍</div>
+                    <h3>Ефективна робота по ГЕО та джерелах</h3>
+                    <p>Глибока експертиза у різних регіонах</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-badge">03</div>
+                    <div class="benefit-icon">🔒</div>
+                    <h3>Приватні умови</h3>
+                    <p>Індивідуальний підхід до кожного партнера</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-badge">04</div>
+                    <div class="benefit-icon">🛠️</div>
+                    <h3>Кваліфікована підтримка</h3>
+                    <p>Професійна команда завжди готова допомогти</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-badge">05</div>
+                    <div class="benefit-icon">✅</div>
+                    <h3>Гарантовані результати</h3>
+                    <p>Забезпечуємо досягнення ваших цілей</p>
+                </div>
+            </div>
+            
+            <div class="value-proposition">
+                <h3>Кожен партнер для нас важливий</h3>
+                <div class="values">
+                    <span class="value-item">ЯКІСТЬ</span>
+                    <span class="value-divider">—</span>
+                    <span class="value-item">НАДІЙНІСТЬ</span>
+                    <span class="value-divider">—</span>
+                    <span class="value-item">СТАБІЛЬНІСТЬ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <h2 class="section-title">НАША КОМАНДА</h2>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">👨‍💼</div>
+                    <div class="member-position">CEO</div>
+                    <div class="member-name">кто-то</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍💼</div>
+                    <div class="member-position">CTO</div>
+                    <div class="member-name">кто-то</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👨‍💻</div>
+                    <div class="member-position">Head of Traffic</div>
+                    <div class="member-name">кто-то</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍💻</div>
+                    <div class="member-position">Lead Developer</div>
+                    <div class="member-name">кто-то</div>
+                </div>
+            </div>
+            
+            <div class="team-values">
+                <h3>Наші цінності</h3>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">💡</div>
+                        <h4>Інновації</h4>
+                        <p>Ми завжди шукаємо нові рішення та підходи</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🤝</div>
+                        <h4>Партнерство</h4>
+                        <p>Будуємо довгострокові відносини з клієнтами</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">📈</div>
+                        <h4>Результат</h4>
+                        <p>Фокусуємося на досягненні цілей партнерів</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section class="careers" id="careers">
+        <div class="container">
+            <h2 class="section-title">КАР'ЄРА В R3C</h2>
+            <p class="section-subtitle">Приєднуйтесь до нашої команди професіоналів</p>
+            
+            <div class="why-join">
+                <h3>Чому варто приєднатися до нас</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">💰 Конкурентна зарплата</div>
+                    <div class="benefit-item">🏖️ Оплачувані відпустки</div>
+                    <div class="benefit-item">📚 Навчання та розвиток</div>
+                    <div class="benefit-item">🏠 Можливість віддаленої роботи</div>
+                </div>
+            </div>
+            
+            <div class="vacancies">
+                <h3>Відкриті вакансії</h3>
+                <div class="vacancy-list">
+                    <div class="vacancy-card">
+                        <h4>Affiliate Manager</h4>
+                        <div class="vacancy-details">
+                            <span class="salary">$2000-3000</span>
+                            <span class="location">Remote</span>
+                            <span class="type">Full-time</span>
+                        </div>
+                        <p>Шукаємо досвідченого Affiliate Manager для роботи з партнерами</p>
+                        <button class="apply-btn">Подати заявку</button>
+                    </div>
+                    <div class="vacancy-card">
+                        <h4>Traffic Manager</h4>
+                        <div class="vacancy-details">
+                            <span class="salary">$1800-2500</span>
+                            <span class="location">Kyiv/Remote</span>
+                            <span class="type">Full-time</span>
+                        </div>
+                        <p>Досвідчений спеціаліст з управління трафіком</p>
+                        <button class="apply-btn">Подати заявку</button>
+                    </div>
+                    <div class="vacancy-card">
+                        <h4>Frontend Developer</h4>
+                        <div class="vacancy-details">
+                            <span class="salary">$2500-3500</span>
+                            <span class="location">Remote</span>
+                            <span class="type">Full-time</span>
+                        </div>
+                        <p>React/TypeScript розробник для нашої платформи</p>
+                        <button class="apply-btn">Подати заявку</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h3>Не знайшли підходящу вакансію?</h3>
+                <p>Надішліть нам своє резюме, і ми зв'яжемося з вами при появі відповідної позиції</p>
+                <button class="cta-button">Надіслати резюме</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">БЛОГ</h2>
+            <p class="section-subtitle">Останні новини та корисні статті</p>
+            
+            <div class="blog-categories">
+                <button class="category-btn active" onclick="filterPosts('all')">Всі</button>
+                <button class="category-btn" onclick="filterPosts('industry')">Індустрія</button>
+                <button class="category-btn" onclick="filterPosts('tips')">Поради</button>
+                <button class="category-btn" onclick="filterPosts('news')">Новини</button>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card" data-category="industry">
+                    <h3>Тренди affiliate-маркетингу 2024</h3>
+                    <p>Огляд основних трендів та прогнозів для affiliate-індустрії на наступний рік...</p>
+                    <div class="blog-meta">
+                        <span class="category">Індустрія</span>
+                        <span class="date">15 Січ 2024</span>
+                        <span class="read-time">5 хв читання</span>
+                    </div>
+                </article>
+                <article class="blog-card" data-category="tips">
+                    <h3>Як оптимізувати конверсію</h3>
+                    <p>Практичні поради з оптимізації конверсії для affiliate-кампаній...</p>
+                    <div class="blog-meta">
+                        <span class="category">Поради</span>
+                        <span class="date">12 Січ 2024</span>
+                        <span class="read-time">7 хв читання</span>
+                    </div>
+                </article>
+                <article class="blog-card" data-category="news">
+                    <h3>Не придумал</h3>
+                    <p>Не придумал</p>
+                    <div class="blog-meta">
+                        <span class="category">Новини</span>
+                        <span class="date">10 Січ 2024</span>
+                        <span class="read-time">3 хв читання</span>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newsletter">
+                <h3>Підписатися на розсилку</h3>
+                <p>Отримуйте останні новини та корисні матеріали</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Ваш email" required>
+                    <button type="submit">Підписатися</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">КОНТАКТИ</h2>
+            <p class="section-subtitle">Зв'яжіться з нами для співпраці</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@r3c.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+380 (44) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Адреса</h4>
+                            <p>вул. Хрещатик, 1<br>Київ, Україна</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Ваше ім'я" required>
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                    <input type="text" name="company" placeholder="Номер телефона">
+                    <textarea name="message" rows="5" placeholder="Ваше повідомлення" required></textarea>
+                    <button type="submit">Надіслати повідомлення</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>R3C</h3>
+                    <p>Лідери за обсягами налитого трафіку</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/%F0%9F%8C%9Folga-klen-0b74b9202?trk=feed_main-feed-card_feed-actor-image" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          
+                          <a href="https://t.me/olyamediahr" class="social-link" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                          </a>
+                          
+                          <a href="https://www.instagram.com/liln1nga" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Компанія</h4>
+                        <a href="#about">Про нас</a>
+                        <a href="#team">Команда</a>
+                        <a href="#careers">Кар'єра</a>
+                        <a href="#contact">Контакти</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Ресурси</h4>
+                        <a href="#blog">Блог</a>
+                        <a href="#">Документація</a>
+                        <a href="#">API</a>
+                        <a href="#">Підтримка</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Правова інформація</h4>
+                        <a href="#">Політика конфіденційності</a>
+                        <a href="#">Умови використання</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 R3C. Всі права захищені.</p>
+                <p>Офіси: Київ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
