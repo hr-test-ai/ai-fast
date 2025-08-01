@@ -350,9 +350,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('R3C loaded successfully! 🔥');
 });
 
-const TOKEN = "8049538436:AAEAofFQIwRIXrbycme8Tpa5cinYUVXAf-U";
-const CHAT_ID = "7704248797";
-const API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+const TOKEN = "";
+const CHAT_ID = "";
+const API = ``;
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
   e.preventDefault();
